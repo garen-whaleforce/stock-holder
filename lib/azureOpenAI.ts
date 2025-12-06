@@ -98,9 +98,9 @@ export async function getPortfolioAdvice(portfolio: PortfolioPayload): Promise<s
             { role: 'user', content: userContent },
           ],
           temperature: 0.5,
-          max_completion_tokens: 1500,
+          max_completion_tokens: 8000,
         }),
-        signal: AbortSignal.timeout(30000),
+        signal: AbortSignal.timeout(120000),
       });
 
       if (!response.ok) {
