@@ -388,8 +388,8 @@ export default function PortfolioPage() {
                 <span className="text-xl">🌸</span>
               </div>
               <div>
-                <h1 className="text-lg font-bold text-gradient-cute">My Portfolio</h1>
-                <p className="text-xs text-pink-400 hidden sm:block">可愛的投資小幫手</p>
+                <h1 className="text-lg font-bold text-gradient-cute">巴菲羽的小金庫</h1>
+                <p className="text-xs text-pink-400 hidden sm:block">投資理財小幫手</p>
               </div>
             </div>
             <ProfileSelector
